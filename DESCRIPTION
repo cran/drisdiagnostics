@@ -1,0 +1,60 @@
+Package: drisdiagnostics
+Type: Package
+Title: Diagnostic Systems for Plant Nutrient Analysis (DRIS, MDRIS,
+        PASS)
+Version: 1.0.1
+Authors@R: 
+  c(
+    person(
+      "Blesson B.", "Varghese",
+      email = "blessonvarghese1234@gmail.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Mubashir", "Sadiq V",
+      email = "msvillakkan@gmail.com",
+      role = "aut"
+    ),
+    person(
+      "Deepthi", "C",
+      email = "deepthichonat@gmail.com",
+      role = "aut"
+    ),
+    person(
+      "Sowmiya", "Saravanan",
+      email = "sowmiyasaravanan24@gmail.com ",
+      role = "aut"
+    ),
+    person(
+      "Aparna", "Mohan V",
+      email = "aparnamohan2023@gmail.com",
+      role = "aut"
+    )
+  )
+Description: Provides implementations of the Diagnosis and Recommendation Integrated System (DRIS),
+    the Modified DRIS (MDRIS), and the Plant Analysis with Standardized Scores (PASS) approaches
+    for nutrient diagnosis in crops. These methods allow quantitative evaluation of nutrient
+    imbalances using ratio-based indices and standardized scores, supporting improved fertilizer
+    use efficiency and crop management decisions. The DRIS method is described in Walworth, J.L.
+    and Sumner, M.E. (1987) <doi:10.1007/978-1-4612-4682-4_4>. The MDRIS approach is
+    detailed in Beverly, R.B. (1987) <doi:10.1080/01904168709363672>. The PASS method
+    combining DRIS and sufficiency ranges is presented in Baldock, J.O. and Schulte, E.E. (1996)
+    <doi:10.2134/agronj1996.00021962008800030015x>.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports: ggplot2, stats, rlang
+Suggests: readxl, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 3.5)
+LazyData: true
+NeedsCompilation: no
+Packaged: 2026-09-15 18:54:14 UTC; bejoy
+Author: Blesson B. Varghese [aut, cre],
+  Mubashir Sadiq V [aut],
+  Deepthi C [aut],
+  Sowmiya Saravanan [aut],
+  Aparna Mohan V [aut]
+Maintainer: Blesson B. Varghese <blessonvarghese1234@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-26 17:00:16 UTC
